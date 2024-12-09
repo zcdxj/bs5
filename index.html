@@ -22,7 +22,8 @@
         <h2 class="mb-3" id="zxBiaoTi">测试文字</h2>
         <div class="bg-white rounded text-dark p-3">
           <p id="mainText" style="font-family: '得意黑'; margin-bottom: 0">
-            测试内容
+            这是一个多行注释的例子。 你可以在这里写很多行注释，
+            它们都不会被JavaScript执行。
           </p>
         </div>
         <!-- div 内容 -->
@@ -38,7 +39,7 @@
 
     <script>
       // 从 localStorage 中读取数据
-      const formData = JSON.parse(localStorage.getItem("formData"));
+      /*const formData = JSON.parse(localStorage.getItem("formData"));
 
       if (formData) {
         const outputDiv = document.getElementById("output");
@@ -64,6 +65,7 @@
         const outputDiv = document.getElementById("output");
         outputDiv.innerHTML = "<p>没有找到任何信息。</p>";
       }
+        */
 
       // 这块是生成图片逻辑
       document
